@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=Sanchez:ital@0;1&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+ 
+ 
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(83, 79, 79, 0.68);
+ 
+}
+
+nav {
+    width: 45%;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+
+
+}
+
+nav a{
+    margin: auto;
+    text-align: center;
+
+    text-decoration: none;
+    color: #000000;
+    width: 65px;
+    height: 18px;
+
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+
+    padding: 10px;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav a:hover{
+    color: #fff;
+}
+
+nav li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav-txt li:hover{
+    background-color: #0000007c;
+    height: 25px;
+}
+
+.profile{
+    margin-left: 80px;
+    text-align: center;
+}
+
+.profile p {
+    font-size: 14px;
+}
+
+
+.profile-img {
+    width: 40px;
+    height: 40px;
+}
+
+.menu {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+}
+
+.logo{
+    float: left;
+    margin-left: 100px;
+}
+
+h1{
+    font-family: "Rye", cursive;
+    font-size: 65px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h3{
+    font-family: "Rye", cursive;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color:rgba(0, 0, 0, 0.829);
+    margin-top: -6px;
+}
+
+input {
+    text-decoration: none;
+    border-radius: 10px;
+    border-style: none;
+    height: 25px;
+    width: 236px;
+    outline: none;
+    font-family: Sanchez;
+
+    margin-top: 150px;
+    margin-right: 290px;
+
+}
+ .search-container button {
+    margin-top: 8px;
+    background-color: transparent;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+
